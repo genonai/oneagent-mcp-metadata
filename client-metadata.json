@@ -1,0 +1,12 @@
+{
+  "client_id": "https://genonai.github.io/oneagent-mcp-metadata/client-metadata.json",
+  "client_name": "OneAgent",
+  "client_uri": "https://github.com/genonai/OneAgent",
+  "redirect_uris": [
+    "http://localhost/api/v1/mcp-oauth/callback",
+    "http://127.0.0.1/api/v1/mcp-oauth/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
